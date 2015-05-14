@@ -2,7 +2,7 @@
 General
 ****************************/
 body {font-family:'Open Sans',sans-serif;}
-#wrapper {max-width:940px;margin:0 auto;padding:0 5%;}
+.wrapper {max-width:940px;margin:0 auto;padding:0 5%;}
 a {text-decoration:none;}
 img {max-width: 100%;}
 h3 {margin:0 0 1em 0;}
@@ -10,7 +10,7 @@ h3 {margin:0 0 1em 0;}
 Heading
 ****************************/
 header {float:left;margin:0 0 30px 0;padding:5px 0 0 0;width:100%;}
-#logo {text-align:center;margin:0;}
+.logo {text-align:center;margin:0;}
 h1 {font-family:'Changa One',sans-serif;margin:15px 0;font-size:1.75em;font-weight:normal;text-shadow:4px 4px #000;Line-height:0.8em;} /*font*/
 h2 {font-size:1.10em; margin:-5px 0 0;font-weight: normal;}
 /****************************
@@ -29,10 +29,10 @@ footer {font-size:0.75em;text-align:center;clear:both;padding-top:50px;color:#cc
 /****************************
 Page: Portfolio
 ****************************/
-#gallery {margin:0;padding:0;list-style:none;}
-#gallery li {float:left;width:45%;margin:2.5%;border-radius:10%; background-color:#f5f5f5;color:#bdc3c7;box-shadow:15px 25px #aaa;}
-#gallery li a p {margin:0;padding:5%;font-size:0.75em;color:#bdc3c7;text-align:center;}
-#gallery li a img {border-radius:15%;}
+.gallery {margin:0;padding:0;list-style:none;}
+.gallery li {float:left;width:45%;margin:2.5%;border-radius:10%; background-color:#f5f5f5;color:#bdc3c7;box-shadow:15px 25px #aaa;}
+.gallery li a p {margin:0;padding:5%;font-size:0.75em;color:#bdc3c7;text-align:center;}
+.gallery li a img {border-radius:15%;}
 /****************************
 Page: About
 ****************************/
@@ -56,24 +56,24 @@ nav a, nav a:visited {color:#cd5c5c;} /* link color */
 nav a.selected {color:#fff;} 
 nav a:hover {color:#999;}/* dark blue */
 
-#overlay{
-  background:rgba(0,0,0,0.7);
+.overlay{
+  background:rgba(0,0,0,0.8);
   width:100%;
   height:100%;
-  position:absolute;
+  position:fixed;
   top:0;
   left:0;
   display:none;
   text-align:center;
 }
 
-#overlay img {
+.overlay img {
   margin-top:05%;
   max-width:90%;
   max-height:90%;
   
 }
 
-#overlay p {
+.overlay p {
   color:white;
 }
